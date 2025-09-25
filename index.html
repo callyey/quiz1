@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+        <li><a href="#home" onclick="navigateTo('home')">Home</a></li>
+        <li><a href="#profile" onclick="navigateTo('profile')">Profile</a></li>
+        <li><a href="#hometown" onclick="navigateTo('hometown')">Hometown</a></li>
+        <li><a href="#local-food" onclick="navigateTo('local-food')">Local Food</a></li>
+        <li><a href="#tourist-places" onclick="navigateTo('tourist-places')">Tourist Places</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <h1>Welcome to My Website</h1>
+            <p>Let's explore my hometown, local foods, and wonderful tourist places!</p>
+        </section>
+
+        <section id="profile" class="section">
+            <h1>MY Profile</h1>
+            <p>Name: Callista Fidelya Roba Gultom</p>
+            <p>Education: Sophomore student in Informatics Engineering at Institut Teknologi Sepuluh Nopember</p>
+            <p>Interest: Database system, Data Science, Data Analyst</p>
+            <p>Hobbies: Sleep, Listening to Horror Podcast, Watching Movies</p>
+        </section>
+
+        <section id="hometown" class="section">
+            <h1>Hometown</h1>
+            <p>My hometown is in Medan, Sumatera Utara. Many people said that my hometown is full of "maling besi (metal thief)",
+                but for me it is more than just "maling besi". Medan is a big city full of chaos, yet I love them. Medan is where I was raised
+                to be a tough girl. I have faced so many challenges that make me who I am today. I would love to show you the beauty of Medan
+                so that you guys can change your perspective about Medan, it is more than just "maling besi".
+            </p>
+            <img src="https://www.itrip.id/wp-content/uploads/2021/02/Harga-Tiket-Istana-Maimun.jpg" alt="Istana Maimun">
+        </section>
+
+        <section id="local-food" class="section">
+            <h1>Local Food</h1>
+            <p>If I could say what I miss the most from my hometown, it is the foods! The foods in Medan are so flavorful and diverse.
+                Once you try it, you will never get enough of it! Here are some local foods you should try when you visit Medan:
+            </p>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Mi Rebus Medan</h3>
+                    <p>A noodle dish topped with bean sprouts, boiled eggs, and sweet potatoes served in a thick, savory gravy made from shrimp paste.</p>
+                    <img src="https://th.bing.com/th/id/R.691cc3aaa528cfd1fcbcc22689bfd35f?rik=TtwaZvCmuoWgzA&riu=http%3a%2f%2fmakansutra.com%2fwp-content%2fuploads%2f2018%2f08%2fINSPIRASI.jpg&ehk=xLvqJfiNbLaZ7O8sDkd1XZtYkC2Tu99NDAMw3M4g9QM%3d&risl=&pid=ImgRaw&r=0" alt="Mi Rebus Medan">
+                </div>
+                <div class="card">
+                    <h3>Mi Balap</h3>
+                    <p>A breakfast dish you can find on every street in Medan. Mi Balap is a stir-fried noodle cooked quickly over high heat, hence the name "Mi Balap", where "balap" means "race" reflecting the cooking process.</p>
+                    <img src="https://1.bp.blogspot.com/-5rRajgVZXng/XZhQEfbnsZI/AAAAAAAACeM/gLQecD3c6EgDjpepr0cpYeyYQaJSl-angCLcBGAsYHQ/s1600/mie%2Bbalap%2Bmedan%2B3.jpg" alt="Mi Balap Medan">
+                </div>
+                <div class="card">
+                    <h3>Bolu Meranti</h3>
+                    <p>Bolu Meranti is a famous roll cake from Medan, known for its fluffy and soft cake filled with many flavors. I recommend you try the cheese flavor, it’s the famous one!</p>
+                    <img src="https://th.bing.com/th/id/R.0dc8360e41358221f1103899cee9d7a0?rik=pnThij7WKHNkQA&riu=http%3a%2f%2fsahabatnesia.com%2fwp-content%2fuploads%2f2017%2f11%2f3-3.jpg&ehk=J%2b3chJmkgjStVUlzfFLN%2bdg211NnAA8MbuA%2fURRo7bo%3d&risl=&pid=ImgRaw&r=0" alt="Bolu Meranti">
+                </div>
+            </div>
+        </section>
+
+        <section id="tourist-places" class="section">
+            <h1>Tourist Places</h1>
+            <p>These are some amazing places you can find other than malls in Medan!</p>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Istana Maimun</h3>
+                    <p>Maimun Palace is a historic palace built in 1888 by the Sultan of Deli. The palace still has a living successor of the Sultan today.</p>
+                    <img src="https://www.itrip.id/wp-content/uploads/2021/02/Harga-Tiket-Istana-Maimun.jpg" alt="Istana Maimun">
+                </div>
+                <div class="card">
+                    <h3>Tjong A Fie Mansion</h3>
+                    <p>A stunning historic house in Medan built in 1895 by a wealthy Chinese merchant. It now serves as a museum showcasing the multicultural heritage of Medan.</p>
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.Nc6L_9XYc4ngdlybcu9egwHaFw?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Tjong A Fie Mansion">
+                </div>
+                <div class="card">
+                    <h3>Masjid Raya Al Mashun</h3>
+                    <p>A grand mosque in Medan, built in 1906 by the Sultan of Deli.</p>
+                    <img src="https://media.gettyimages.com/id/521447636/photo/the-medan-grand-mosque.jpg?s=612x612&w=gi&k=20&c=s2lvxYGDjFYcIE0Jg7ANexlHLUIoql7bmfhHciy2AKE=" alt="Masjid Raya Al Mashun">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My new new website. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
